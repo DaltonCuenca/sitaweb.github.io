@@ -13,53 +13,50 @@
   <div class="container">
     <h1 class="text-center mb-4">Catálogo de Productos</h1>
     
-    <!-- Contenedor de tarjetas -->
     <div class="row">
       <!-- Producto 1 -->
       <div class="col-12 mb-3">
         <div class="card border-0 shadow-sm rounded-3">
-          <div class="row g-0">
-            <div class="col-auto p-3 border-end">
-              <div class="d-flex flex-column align-items-center" style="width: 120px;">
-                <span class="badge bg-success mb-2">En Stock</span>
-                <small class="text-muted">SKU: PRD-1234</small>
-              </div>
+          <div class="card-body p-3">
+            <!-- Encabezado del producto -->
+            <div class="d-flex align-items-center mb-2">
+              <span class="badge bg-success me-2">En Stock</span>
+              <small class="text-muted">SKU: PRD-1234</small>
             </div>
-            <div class="col">
-              <div class="card-body p-2">
-                <div class="row align-items-center g-2">
-                  <div class="col-md-3">
-                    <h5 class="mb-0">iPhone 14 Pro</h5>
-                    <small class="text-muted">256GB - Gris Espacial</small>
-                  </div>
-                  <div class="col-md-2">
-                    <div class="text-center border-start">
-                      <div class="fs-5 fw-bold text-primary">1.299,00 €</div>
-                      <small class="text-success">Margen: 25%</small>
-                    </div>
-                  </div>
-                  <div class="col-md-2">
-                    <div class="text-center border-start">
-                      <div class="fw-bold">24 unids.</div>
-                      <small class="text-muted">En stock</small>
-                    </div>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="border-start ps-3">
-                      <div>Vendidos: 156 unids.</div>
-                      <small class="text-muted">Última venta: 15/03/24</small>
-                    </div>
-                  </div>
-                  <div class="col-md-2 text-end">
-                    <div class="btn-group">
-                      <button class="btn btn-outline-primary btn-sm rounded-2 me-2" title="Editar">
-                        <i class="fas fa-edit"></i> Editar
-                      </button>
-                      <button class="btn btn-outline-danger btn-sm rounded-2" title="Eliminar">
-                        <i class="fas fa-trash"></i> Eliminar
-                      </button>
-                    </div>
-                  </div>
+            
+            <!-- Nombre y especificaciones -->
+            <h5 class="mb-1">iPhone 14 Pro</h5>
+            <p class="text-muted small mb-2">256GB - Gris Espacial</p>
+            
+            <!-- Detalles del producto -->
+            <div class="row g-2 align-items-center">
+              <!-- Precio -->
+              <div class="col-6 col-md-3">
+                <div class="fs-5 fw-bold text-primary">1.299,00 €</div>
+                <small class="text-success">Margen: 25%</small>
+              </div>
+              
+              <!-- Stock -->
+              <div class="col-6 col-md-3 text-end text-md-start">
+                <div class="fw-bold">24 unids.</div>
+                <small class="text-muted">En stock</small>
+              </div>
+              
+              <!-- Ventas -->
+              <div class="col-12 col-md-3">
+                <div>Vendidos: 156 unids.</div>
+                <small class="text-muted">Última venta: 15/03/24</small>
+              </div>
+              
+              <!-- Botones -->
+              <div class="col-12 col-md-3">
+                <div class="d-flex gap-2 justify-content-start justify-content-md-end mt-2 mt-md-0">
+                  <button class="btn btn-outline-primary btn-sm flex-grow-1 flex-md-grow-0">
+                    <i class="fas fa-edit"></i> Editar
+                  </button>
+                  <button class="btn btn-outline-danger btn-sm flex-grow-1 flex-md-grow-0">
+                    <i class="fas fa-trash"></i> Eliminar
+                  </button>
                 </div>
               </div>
             </div>
@@ -70,48 +67,46 @@
       <!-- Producto 2 -->
       <div class="col-12 mb-3">
         <div class="card border-0 shadow-sm rounded-3">
-          <div class="row g-0">
-            <div class="col-auto p-3 border-end">
-              <div class="d-flex flex-column align-items-center" style="width: 120px;">
-                <span class="badge bg-warning mb-2">Bajo Stock</span>
-                <small class="text-muted">SKU: PRD-1235</small>
-              </div>
+          <div class="card-body p-3">
+            <!-- Encabezado del producto -->
+            <div class="d-flex align-items-center mb-2">
+              <span class="badge bg-warning me-2">Bajo Stock</span>
+              <small class="text-muted">SKU: PRD-1235</small>
             </div>
-            <div class="col">
-              <div class="card-body p-2">
-                <div class="row align-items-center g-2">
-                  <div class="col-md-3">
-                    <h5 class="mb-0">MacBook Air M2</h5>
-                    <small class="text-muted">512GB - Plata</small>
-                  </div>
-                  <div class="col-md-2">
-                    <div class="text-center border-start">
-                      <div class="fs-5 fw-bold text-primary">1.549,00 €</div>
-                      <small class="text-success">Margen: 22%</small>
-                    </div>
-                  </div>
-                  <div class="col-md-2">
-                    <div class="text-center border-start">
-                      <div class="fw-bold">5 unids.</div>
-                      <small class="text-muted">En stock</small>
-                    </div>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="border-start ps-3">
-                      <div>Vendidos: 89 unids.</div>
-                      <small class="text-muted">Última venta: 10/03/24</small>
-                    </div>
-                  </div>
-                  <div class="col-md-2 text-end">
-                    <div class="btn-group">
-                      <button class="btn btn-outline-primary btn-sm rounded-2 me-2" title="Editar">
-                        <i class="fas fa-edit"></i> Editar
-                      </button>
-                      <button class="btn btn-outline-danger btn-sm rounded-2" title="Eliminar">
-                        <i class="fas fa-trash"></i> Eliminar
-                      </button>
-                    </div>
-                  </div>
+            
+            <!-- Nombre y especificaciones -->
+            <h5 class="mb-1">MacBook Air M2</h5>
+            <p class="text-muted small mb-2">512GB - Plata</p>
+            
+            <!-- Detalles del producto -->
+            <div class="row g-2 align-items-center">
+              <!-- Precio -->
+              <div class="col-6 col-md-3">
+                <div class="fs-5 fw-bold text-primary">1.549,00 €</div>
+                <small class="text-success">Margen: 22%</small>
+              </div>
+              
+              <!-- Stock -->
+              <div class="col-6 col-md-3 text-end text-md-start">
+                <div class="fw-bold">5 unids.</div>
+                <small class="text-muted">En stock</small>
+              </div>
+              
+              <!-- Ventas -->
+              <div class="col-12 col-md-3">
+                <div>Vendidos: 89 unids.</div>
+                <small class="text-muted">Última venta: 10/03/24</small>
+              </div>
+              
+              <!-- Botones -->
+              <div class="col-12 col-md-3">
+                <div class="d-flex gap-2 justify-content-start justify-content-md-end mt-2 mt-md-0">
+                  <button class="btn btn-outline-primary btn-sm flex-grow-1 flex-md-grow-0">
+                    <i class="fas fa-edit"></i> Editar
+                  </button>
+                  <button class="btn btn-outline-danger btn-sm flex-grow-1 flex-md-grow-0">
+                    <i class="fas fa-trash"></i> Eliminar
+                  </button>
                 </div>
               </div>
             </div>
@@ -122,99 +117,96 @@
       <!-- Producto 3 -->
       <div class="col-12 mb-3">
         <div class="card border-0 shadow-sm rounded-3">
-          <div class="row g-0">
-            <div class="col-auto p-3 border-end">
-              <div class="d-flex flex-column align-items-center" style="width: 120px;">
-                <span class="badge bg-success mb-2">En Stock</span>
-                <small class="text-muted">SKU: PRD-1236</small>
-              </div>
+          <div class="card-body p-3">
+            <!-- Encabezado del producto -->
+            <div class="d-flex align-items-center mb-2">
+              <span class="badge bg-success me-2">En Stock</span>
+              <small class="text-muted">SKU: PRD-1236</small>
             </div>
-            <div class="col">
-              <div class="card-body p-2">
-                <div class="row align-items-center g-2">
-                  <div class="col-md-3">
-                    <h5 class="mb-0">Samsung Galaxy S23</h5>
-                    <small class="text-muted">128GB - Azul</small>
-                  </div>
-                  <div class="col-md-2">
-                    <div class="text-center border-start">
-                      <div class="fs-5 fw-bold text-primary">799,00 €</div>
-                      <small class="text-success">Margen: 20%</small>
-                    </div>
-                  </div>
-                  <div class="col-md-2">
-                    <div class="text-center border-start">
-                      <div class="fw-bold">15 unids.</div>
-                      <small class="text-muted">En stock</small>
-                    </div>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="border-start ps-3">
-                      <div>Vendidos: 120 unids.</div>
-                      <small class="text-muted">Última venta: 12/03/24</small>
-                    </div>
-                  </div>
-                  <div class="col-md-2 text-end">
-                    <div class="btn-group">
-                      <button class="btn btn-outline-primary btn-sm rounded-2 me-2" title="Editar">
-                        <i class="fas fa-edit"></i> Editar
-                      </button>
-                      <button class="btn btn-outline-danger btn-sm rounded-2" title="Eliminar">
-                        <i class="fas fa-trash"></i> Eliminar
-                      </button>
-                    </div>
-                  </div>
+            
+            <!-- Nombre y especificaciones -->
+            <h5 class="mb-1">Samsung Galaxy S23</h5>
+            <p class="text-muted small mb-2">128GB - Azul</p>
+            
+            <!-- Detalles del producto -->
+            <div class="row g-2 align-items-center">
+              <!-- Precio -->
+              <div class="col-6 col-md-3">
+                <div class="fs-5 fw-bold text-primary">799,00 €</div>
+                <small class="text-success">Margen: 20%</small>
+              </div>
+              
+              <!-- Stock -->
+              <div class="col-6 col-md-3 text-end text-md-start">
+                <div class="fw-bold">15 unids.</div>
+                <small class="text-muted">En stock</small>
+              </div>
+              
+              <!-- Ventas -->
+              <div class="col-12 col-md-3">
+                <div>Vendidos: 120 unids.</div>
+                <small class="text-muted">Última venta: 12/03/24</small>
+              </div>
+              
+              <!-- Botones -->
+              <div class="col-12 col-md-3">
+                <div class="d-flex gap-2 justify-content-start justify-content-md-end mt-2 mt-md-0">
+                  <button class="btn btn-outline-primary btn-sm flex-grow-1 flex-md-grow-0">
+                    <i class="fas fa-edit"></i> Editar
+                  </button>
+                  <button class="btn btn-outline-danger btn-sm flex-grow-1 flex-md-grow-0">
+                    <i class="fas fa-trash"></i> Eliminar
+                  </button>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <!-- Producto 4 -->
       <div class="col-12 mb-3">
         <div class="card border-0 shadow-sm rounded-3">
-          <div class="row g-0">
-            <div class="col-auto p-3 border-end">
-              <div class="d-flex flex-column align-items-center" style="width: 120px;">
-                <span class="badge bg-warning mb-2">Bajo Stock</span>
-                <small class="text-muted">SKU: PRD-1237</small>
-              </div>
+          <div class="card-body p-3">
+            <!-- Encabezado del producto -->
+            <div class="d-flex align-items-center mb-2">
+              <span class="badge bg-warning me-2">Bajo Stock</span>
+              <small class="text-muted">SKU: PRD-1237</small>
             </div>
-            <div class="col">
-              <div class="card-body p-2">
-                <div class="row align-items-center g-2">
-                  <div class="col-md-3">
-                    <h5 class="mb-0">HP Pavilion Gaming</h5>
-                    <small class="text-muted">16GB RAM - 512GB SSD</small>
-                  </div>
-                  <div class="col-md-2">
-                    <div class="text-center border-start">
-                      <div class="fs-5 fw-bold text-primary">999,00 €</div>
-                      <small class="text-success">Margen: 18%</small>
-                    </div>
-                  </div>
-                  <div class="col-md-2">
-                    <div class="text-center border-start">
-                      <div class="fw-bold">10 unids.</div>
-                      <small class="text-muted">En stock</small>
-                    </div>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="border-start ps-3">
-                      <div>Vendidos: 50 unids.</div>
-                      <small class="text-muted">Última venta: 15/02/24</small>
-                    </div>
-                  </div>
-                  <div class="col-md-2 text-end">
-                    <div class="btn-group">
-                      <button class="btn btn-outline-primary btn-sm rounded-2 me-2" title="Editar">
-                        <i class="fas fa-edit"></i> Editar
-                      </button>
-                      <button class="btn btn-outline-danger btn-sm rounded-2" title="Eliminar">
-                        <i class="fas fa-trash"></i> Eliminar
-                      </button>
-                    </div>
-                  </div>
+            
+            <!-- Nombre y especificaciones -->
+            <h5 class="mb-1">HP Pavilion Gaming</h5>
+            <p class="text-muted small mb-2">16GB RAM - 512GB SSD</p>
+            
+            <!-- Detalles del producto -->
+            <div class="row g-2 align-items-center">
+              <!-- Precio -->
+              <div class="col-6 col-md-3">
+                <div class="fs-5 fw-bold text-primary">999,00 €</div>
+                <small class="text-success">Margen: 18%</small>
+              </div>
+              
+              <!-- Stock -->
+              <div class="col-6 col-md-3 text-end text-md-start">
+                <div class="fw-bold">10 unids.</div>
+                <small class="text-muted">En stock</small>
+              </div>
+              
+              <!-- Ventas -->
+              <div class="col-12 col-md-3">
+                <div>Vendidos: 50 unids.</div>
+                <small class="text-muted">Última venta: 15/02/24</small>
+              </div>
+              
+              <!-- Botones -->
+              <div class="col-12 col-md-3">
+                <div class="d-flex gap-2 justify-content-start justify-content-md-end mt-2 mt-md-0">
+                  <button class="btn btn-outline-primary btn-sm flex-grow-1 flex-md-grow-0">
+                    <i class="fas fa-edit"></i> Editar
+                  </button>
+                  <button class="btn btn-outline-danger btn-sm flex-grow-1 flex-md-grow-0">
+                    <i class="fas fa-trash"></i> Eliminar
+                  </button>
                 </div>
               </div>
             </div>
